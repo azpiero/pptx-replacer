@@ -1,6 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3.7+-3776AB?logo=python&logoColor=white)
 ![python-pptx](https://img.shields.io/badge/python--pptx-1.0+-orange)
 ![Pillow](https://img.shields.io/badge/Pillow-10.0+-green)
+![PyInstaller](https://img.shields.io/badge/PyInstaller-6.0+-yellow)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
