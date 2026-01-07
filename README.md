@@ -270,6 +270,30 @@ python replace_images.py --scan /path/to/file.pptx
 
 ---
 
+## Windows EXEファイルの作成
+
+PyInstallerを使用してスタンドアロンのEXEファイルを作成できます。
+
+### クイックスタート
+
+```cmd
+# 1. 仮想環境の作成（推奨）
+python -m venv venv_build
+venv_build\Scripts\activate
+
+# 2. 依存関係のインストール
+pip install Pillow python-pptx pyinstaller
+
+# 3. ビルド実行
+pyinstaller pptx_replacer.spec
+```
+
+ビルド成功後、`dist/PPTX画像置換ツール.exe` が作成されます。
+
+詳細な手順やトラブルシューティングは [BUILD_WINDOWS_EXE.md](BUILD_WINDOWS_EXE.md) を参照してください。
+
+---
+
 ## ライセンス
 
 MIT License
